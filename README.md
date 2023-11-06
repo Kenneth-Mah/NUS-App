@@ -27,4 +27,6 @@ The admission timeline should be formatted as a bullet point list:
 For reference, [How To Create A Navbar In React With Routing](https://www.youtube.com/watch?v=SLfhMt5OUPI&t=95s)
 
 ## Task 2
-Extend the previous exercise by adding a sign in with Google button to all the pages. Account for the extreme cases, like wrong credentials and non-existent user by triggering a notification message that gives an explanation. Demonstrate that the authentication flow works by signing in with your google account, your account with a wrong password, and an account that does not exists in the database.  
+Extend the previous exercise by adding a sign in with Google button to all the pages. Account for the extreme cases, like wrong credentials and non-existent user by triggering a notification message that gives an explanation. Demonstrate that the authentication flow works by signing in with your google account, your account with a wrong password, and an account that does not exists in the database.
+
+For reference, [Google Authentication With React JS & Firebase - Sign In With Google - Firebase v9](https://youtu.be/cZAnibwI9u8?si=7tqDoGv8qiinABWi)
