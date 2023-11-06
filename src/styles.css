@@ -49,3 +49,19 @@ body {
 .nav li:hover {
     background-color: yellow;
 }
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.list {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
