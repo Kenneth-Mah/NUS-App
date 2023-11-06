@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Creating an NUS App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+In the project directory, running `npm start` runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+## Task 1
+Create a home page that displays a NUS logo, a text that says: “NUS is a leading research university in Asia”, and a working navigation panel with Home, Academics, Admission. The academics page should have a list of modules taught at the university and the admission page should have an admission process flow. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The list of modules taught at the university should be formatted as a table: 
+| Module Code | Module Title |
+| --- | --- |
+| BT1101 | Introduction to Business Analytics |
+| BT2101 | Econometrics Modelling for Business Analytics |
+| BT2102 | Data Management and Visualisation |
+| BT2103 | Optimization Methods in Business Analytics |
 
-### `npm run build`
+The admission timeline should be formatted as a bullet point list: 
+1.	Understanding Admission requirements
+2.	Submit application online
+3.	Upload supporting documents
+4.	Make application fee payment
+5.	Check application status 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For reference, [How To Create A Navbar In React With Routing](https://www.youtube.com/watch?v=SLfhMt5OUPI&t=95s)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Task 2
+Extend the previous exercise by adding a sign in with Google button to all the pages. Account for the extreme cases, like wrong credentials and non-existent user by triggering a notification message that gives an explanation. Demonstrate that the authentication flow works by signing in with your google account, your account with a wrong password, and an account that does not exists in the database.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For reference, [Google Authentication With React JS & Firebase - Sign In With Google - Firebase v9](https://youtu.be/cZAnibwI9u8?si=7tqDoGv8qiinABWi)

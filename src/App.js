@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css'
-import Navbar from './Navbar'
+import Navbar from './components/Navbar'
 import Home from "./pages/Home"
 import Academics from './pages/Academics'
 import Admission from './pages/Admission'
+import Dashboard from './pages/Dashboard'
 import { Route, Routes } from "react-router-dom"
+
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/admission" element={<Admission />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </>
